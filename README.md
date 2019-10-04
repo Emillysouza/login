@@ -1,6 +1,10 @@
 login
 Sistema de Login em PHP e Javascript
 
+# Aula05 - 04/10/2019
+- Envio de dados do front-end para o Back-end,
+- métodos GET e POST.
+
 # Aula04 - 01/10/2019
 - validação com HTML5
 - validação dos campos com jQuery validade

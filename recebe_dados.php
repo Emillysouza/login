@@ -1,5 +1,13 @@
 <?php
+//Conexão com banco de dados
+require_once 'configBD.php';
 
+function verificar_entrada($entrada){
+    $saida = htmlspecialchars($entrada);
+    $saida = stripslashes($saida);
+    $saida = trim($saida);
+    return $saida;//retorna a saida limpa
+}
 
 //teste se existe a ação
 if(isset($_POST['action'])){

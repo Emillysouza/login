@@ -1,11 +1,11 @@
 login
 Sistema de Login em PHP e Javascript
 
-
+# Aula06 - 15/10/2019
+- Persistentência de dados no banco de dados
 
 # Aula05 - 07/10/2019
-- Envio de dados do front-end para o Back-end,
-- métodos GET e POST.
+- Envio de dados do front-end para o Back-end, métodos GET e POST.
 
 # Aula04 - 01/10/2019
 - validação com HTML5
@@ -38,7 +38,7 @@ Layout Bootstrap para os formulários
 
 - Pressione Enter
 
-# Clonar o repositório login na pasta c:\xampp\htdocs
+## Clonar o repositório login na pasta c:\xampp\htdocs
 
 - Tecla Windows - Abrir o Github Desktop
 - Clique em Sign in to Github.com
@@ -48,18 +48,25 @@ Layout Bootstrap para os formulários
 - Clique no botão Choose e encontre no disco local C: a pasta xampp e dentro dela htdocs
 - Selecione a pasta e confira se o local path foi c:\xampp\htdocs\login
 - Clique no botão azul Clone
-# Habilitar o servidor web Apache e o servidor MySQL
+## Habilitar o servidor web Apache e o servidor MySQL
 
 - Tecla Windows - Abrir o XAMPP Control Panel
 - Clique em Start para o Apache
 - Clique em Start para o MySQL
 - Verifique se apareceu a porta 80 Apache e 3306 MySQL
 - Verifique se ficou verde o Apache e MySQL
-# Testar se está funcionando
+## Testar se está funcionando
 
 - Abra o navegador Firefox Azul e digite http://localhost/login
 
-# Editar utilizando o VS Code
+## Editar utilizando o VS Code
 
 - Tecla Windows - Abrir o Visual Studio Code (é o azul)
 - Abrir Pasta no VS Code escolha c:\xampp\htdocs\login
+
+## Importa o banco de dados
+- Acessar no navegador http://localhost/phpmyadmin
+- Clicar em Importa
+- Selecionar o arquivo, clicando em Browse ou escolha o arquivo
+- Abra o arquivo 127.0.0.1.sql e clique em executar
+- O banco deve ter sido importado corretamente

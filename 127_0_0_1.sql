@@ -26,6 +26,7 @@ CREATE DATABASE IF NOT EXISTS `senai` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8
 USE `senai`;
 
 -- --------------------------------------------------------
+
 --
 -- Estrutura da tabela `usuario`
 --

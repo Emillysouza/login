@@ -1,0 +1,1 @@
+<img src="images.jpg" class="img-fluid" alt="Imagem responsiva">

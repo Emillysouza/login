@@ -36,7 +36,7 @@ require_once "session.php";
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#">Sobre</a>
-                        <a class="dropdown-item" href="#">Fotos</a>
+                        <a class="dropdown-item" href="http://localhost/login/fotos.php">Fotos</a>
                         <a class="dropdown-item" href="sair.php">Sair</a>
                     </div>
                 </li>
@@ -52,8 +52,8 @@ require_once "session.php";
             </h2>
             <h2 class="text-center">
                 E-mail do Usuario:
-                <a href="mailto:<?=$emailUsuario?>">
-                    <?=$emailUsuario?>
+                <a href="mailto:<?= $emailUsuario ?>">
+                    <?= $emailUsuario ?>
                 </a>
             </h2>
             <h2 class="text-center">

@@ -20,5 +20,5 @@ if(isset($_SESSION['nomeDoUsuario'])){
     $dataCriado = date('d/m/Y', strtotime($dataCriado));
 }else{
     //Se não estiver logado, redirecionar para index
-    header("location: index;php");
+    header("location: index.php");
 }
